@@ -1,0 +1,26 @@
+[
+  {
+    "Endpoint": "TestEP1",
+    "ResponseTime": 5000,
+    "PercentageExpected" : 100,
+    "PassPercentage" : 100
+  },
+  {
+    "Endpoint": "TestEP2",
+    "ResponseTime": 13000,
+    "PercentageExpected" : 100,
+    "PassPercentage" : 100
+  },
+  {
+    "Endpoint": "TestEP3",
+    "ResponseTime": 5000,
+    "PercentageExpected" : 100,
+    "PassPercentage" : 100
+  },
+  {
+    "Endpoint": "TestEP4",
+    "ResponseTime": 10000,
+    "PercentageExpected" : 100,
+    "PassPercentage" : 100
+  }
+]

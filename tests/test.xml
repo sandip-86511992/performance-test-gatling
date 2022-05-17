@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestSuite>
+<TestCase enable="true" name="TestGoogle" simulation="Test">
+<TestStep loopcount="0">
+<Title>GetGoogle</Title>
+<Action>Get</Action>
+<TargetEndpoint>Google</TargetEndpoint>
+</TestStep>
+</TestCase>
+</TestSuite>

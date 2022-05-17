@@ -1,0 +1,21 @@
+<Configuration>
+    <EndPoint name="UserLogin">
+        <Uri>Global</Uri>
+        <Protocol>https</Protocol>
+        <Port></Port>
+        <Path>public/user/login</Path>
+    </EndPoint>
+    <EndPoint name="UserLoginV1">
+        <Uri>Global</Uri>
+        <Protocol>https</Protocol>
+        <Port></Port>
+        <Path>public/authentication/v1/login</Path>
+    </EndPoint>
+    <Simulation name="default" profile="AtOnceUser">
+        <Parameter type="NumberofUser">10</Parameter>
+    </Simulation>
+    <Simulation name="Test_RampUp" profile="RampUser">
+        <Parameter type="NumberofUser">20000</Parameter>
+        <Parameter type="Duration">300</Parameter>
+    </Simulation>
+</Configuration>

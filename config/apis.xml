@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+<EndPoint name="Google">
+<Uri>www.google.com</Uri>
+<Protocol>https</Protocol>
+<Port>443</Port>
+<Path>/</Path>
+</EndPoint>
+<Simulation name="Test" profile="AtOnceUser">
+<Parameter type="NumberOfUser">10</Parameter>
+</Simulation>
+</Configuration>
